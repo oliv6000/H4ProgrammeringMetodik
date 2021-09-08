@@ -9,9 +9,9 @@
 </head>
 <body>
     <div class="navbar_container">
-        <a class="active" href="#home">Home</a>
-        <a href="#login">Login</a>
-        <a href="#basket">Basket</a>
+        <a class="active" href="Home.php">Home</a>
+        <a href="Login.php">Login</a>
+        <a href="Basket.php">Basket</a>
     </div>
 </body>
 </html>

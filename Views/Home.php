@@ -53,28 +53,28 @@ body {
     <div class="card">
         <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
         <h1>Smør</h1>
-        <p class="price">$0.99</p>
+        <p class="price">6.95,-</p>
         <p>Some text about the products.lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div>  
     <div class="card">
         <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
         <h1>Franskbrød</h1>
-        <p class="price">$1.99</p>
+        <p class="price">19.95,-</p>
         <p>Some text about the products. lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div> 
     <div class="card">
         <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
         <h1>Hindbærsnitte</h1>
-        <p class="price">$1.99</p>
+        <p class="price">9.95,-</p>
         <p>Some text about the products. lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div>
     <div class="card">
         <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
         <h1>Rugbrød</h1>
-        <p class="price">$1.49</p>
+        <p class="price">14.95,-</p>
         <p>Some text about the products. lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div>
