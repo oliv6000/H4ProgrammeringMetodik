@@ -1,3 +1,7 @@
+<?php
+include 'Navbar.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +10,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Styling/Orders_styling.css">
     <title>Document</title>
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: white;
+  }
+  body {
+  background-image: url('../bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    </style>
 </head>
 <body>
+
     <h2>Bestillinger</h2>
     <table style="width:100%">
         <tr>
             <th>
                 ID
                 <p>25</p>
+            </th>
+            <th>
+                Dato
+                <p>20/4/1889</p>
             </th>
             <th>
                 Varer:
@@ -30,6 +52,10 @@
                 <p>504</p>
             </th>
             <th>
+                Dato
+                <p>17/8/1987
+            </th>
+            <th>
                 Varer:
                 <p>Mælk, Ost(uden mælk), Æg</p>
             </th>
@@ -42,6 +68,10 @@
             <th>
                 ID
                 <p>82</p>
+            </th>
+            <th>
+                Dato
+                <p>12/3/1738
             </th>
             <th>
                 Varer:
@@ -58,6 +88,10 @@
                 <p>17</p>
             </th>
             <th>
+                Dato
+                <p>12/9/2021
+            </th>
+            <th>
                 Varer:
                 <p>Smør, ost(uden mælk), Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Æg, Løg, Æg, Æg</p>
             </th>
@@ -70,6 +104,10 @@
             <th>
                 ID
                 <p>38</p>
+            </th>
+            <th>
+                Dato
+                <p>1/1/2022
             </th>
             <th>
                 Varer:
