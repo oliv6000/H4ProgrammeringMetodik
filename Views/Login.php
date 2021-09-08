@@ -9,17 +9,24 @@
 </head>
 <body>
     <div class="loginDiv" >
-        <form id="loginForm">
-            <div class="container">
-                <label>Brugernavn: </label>
-                <input type="text" placeholder="Indsæt Brugernavn  " name="username" required="required"/>
-                <br /> <br />
-                <label>Kodeord: </label>
-                <input type="password" placeholder="Indsæt Kodeord" name="password" required="required" />
-                <br /><br />
-                <button type="submit" onclick="loginClicked" onserverClick="loginClicked">Log ind</button>  
-            </div>
-        </form>
+        <div class="container">
+            <label>Brugernavn: </label>
+            <input type="text" placeholder="Indsæt Brugernavn  " name="username" required="required"/>
+            <br /> <br />
+            <label>Kodeord: </label>
+            <input type="password" placeholder="Indsæt Kodeord" name="password" required="required" />
+            <br /><br />
+            <button type="submit" onclick="location.href='Home.php'" >Log ind</button>  
+        </div>
     </div>
 </body>
 </html>
+<style>
+    .loginDiv {
+    position:fixed; 
+    top:50%; 
+    left:50%; 
+    -webkit-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+}
+</style>
