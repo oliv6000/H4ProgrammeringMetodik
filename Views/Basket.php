@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styling/Basket_styling.css">
+    <link rel="stylesheet" href="../Basket_styling.css">
     <title>Document</title>
+    <style>
+        .remove-button {
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+    <script>
+        function nope() {
+            alert("Not Enough Minerals");
+        }
+    </script>
+
 </head>
 <body>
         <div style="text-align:center; margin: 20px;">
@@ -19,7 +31,7 @@
             <input class="amount-input-field" type="number" name="Amount" value="1" />
             <div class="total">
                 <p>total: 100,-</p>
-                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg"/>
+                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg" onclick="nope()"/>
             </div>
         </div>
         
@@ -29,7 +41,7 @@
             <input class="amount-input-field" type="number" name="Amount" value="2" />
             <div class="total">
                 <p>total: 200,-</p>
-                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg"/>
+                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg" onclick="nope()"/>
             </div>
         </div>
 
@@ -39,7 +51,7 @@
             <input class="amount-input-field" type="number" name="Amount" value="3" />
             <div class="total">
                 <p>total: 300,-</p>
-                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg"/>
+                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg" onclick="nope()"/>
             </div>
         </div>
 
@@ -49,14 +61,15 @@
             <input class="amount-input-field" type="number" name="Amount" value="4" />
             <div class="total">
                 <p>total: 400,-</p>
-                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg"/>
+                <img class="remove-button" src="https://icon-library.com/images/delete-icon-png-16x16/delete-icon-png-16x16-4.jpg" onclick="nope()"/>
             </div>
         </div>
 
     </div>
 
         <div class="purchase-container">
-            <Button class="purchase" runat="server">Køb</button>
+            <p>I alt: 1000,-</p>
+            <Button class="purchase" runat="server" onclick="nope()">Køb</button>
         </div>
     
 </body>
