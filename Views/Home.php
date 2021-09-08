@@ -12,6 +12,7 @@ include 'Navbar.php';
     <title>Document</title>
     <style>
 .card {
+  background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
@@ -39,6 +40,9 @@ include 'Navbar.php';
 
 .card button:hover {
   opacity: 0.7;
+}
+body {
+  background-image: url('https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 </style>
 </head>
