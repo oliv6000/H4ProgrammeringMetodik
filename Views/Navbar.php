@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="navbar_container">
-        <h3>This is the navbar</h3>
+        <a class="active" href="Home.php">Home</a>
+        <a href="Login.php">Login</a>
+        <a href="Basket.php">Basket</a>
     </div>
 </body>
 </html>
