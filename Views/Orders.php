@@ -8,27 +8,19 @@ include 'Navbar.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styling/Orders_styling.css">
-    <title>Document</title>
-    <style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background: white;
-  }
-  body {
-  background-image: url('../bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-    </style>
+    <link rel="stylesheet" href="../Styling/Orders_styling.css">
+    <title>Bestillinger</title>
 </head>
 <body>
 
-    <h2>Bestillinger</h2>
-    <table style="width:100%">
-        <tr>
+<h2>Bestillinger</h2>
+<table style="width:100%">
+    <?php 
+        $i = 0;
+        while ($i != 4) {
+
+            echo '
+            <tr>
             <th>
                 ID
                 <p>25</p>
@@ -45,8 +37,8 @@ table, th, td {
                 Pris i alt
                 <p>43 kr.</p>
             </th>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <th>
                 ID
                 <p>504</p>
@@ -63,8 +55,8 @@ table, th, td {
                 Pris i alt
                 <p>923 kr.</p>
             </th>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <th>
                 ID
                 <p>82</p>
@@ -81,8 +73,8 @@ table, th, td {
                 Pris i alt
                 <p>41 kr.</p>
             </th>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <th>
                 ID
                 <p>17</p>
@@ -99,8 +91,8 @@ table, th, td {
                 Pris i alt
                 <p>214 kr.</p>
             </th>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <th>
                 ID
                 <p>38</p>
@@ -117,7 +109,11 @@ table, th, td {
                 Pris i alt
                 <p>872 kr.</p>
             </th>
-        </tr>
-    </table>
+            </tr>
+            ';
+            $i++;
+        }
+    ?>
+</table>
 </body>
 </html>
