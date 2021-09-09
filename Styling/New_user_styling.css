@@ -1,0 +1,41 @@
+.UserInputContainer {
+    border: 2px solid darkgray;
+    border-radius: 2px;
+
+    padding: 40px;
+
+    display: grid;
+
+    position: fixed;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+}
+.Header {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.UserInput {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+
+    height: 8px;
+}
+
+.CreateButton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #75da47b7;
+    min-height: 30px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.CreateButton:active {
+    background-color: #76da47;
+}
