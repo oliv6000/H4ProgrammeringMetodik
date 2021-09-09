@@ -13,23 +13,18 @@ include 'Navbar.php';
 <body>
     <div class="loginDiv" >
         <div class="container">
-            <label>Brugernavn: </label>
-            <input type="text" placeholder="Indsæt Brugernavn  " name="username" required="required"/>
+            <label style="font-weight:bold;font-size:28px">Brugernavn</label>
+            <br>
+            <input type="text" placeholder="Indsæt Brugernavn" id="inputUsername" name="username" required="required"/>
             <br /> <br />
-            <label>Kodeord: </label>
+            <label style="font-weight:bold;font-size:28px">Kodeord</label>
+            <br>
             <input type="password" placeholder="Indsæt Kodeord" name="password" required="required" />
             <br /><br />
             <button type="submit" onclick="location.href='Home.php'" >Log ind</button>  
+            <button onclick="location.href='New_user.php'" > Opret bruger </button>
         </div>
     </div>
 </body>
 </html>
-<style>
-    .loginDiv {
-    position:fixed; 
-    top:50%; 
-    left:50%; 
-    -webkit-transform: translate(-50%, -50%); 
-    transform: translate(-50%, -50%);
-}
-</style>
+
