@@ -8,8 +8,13 @@
   text-align: center;
   text-decoration: none;
   font-size: 17px;
+  padding: 14px 16px;
 }
 .navbar_container a:hover {
   background-color: #ddd;
   color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
 }
