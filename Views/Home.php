@@ -10,69 +10,34 @@ include 'Navbar.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Styling/Home_styling.css">
     <title>Document</title>
-    <style>
-.card {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  text-align: center;
-  font-family: arial;
-  float:left; 
-  margin:2%;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
-body {
-  background-image: url('https://images.pexels.com/photos/268966/pexels-photo-268966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
-</style>
 </head>
 
 <body>
     <h2>Lagkagehuset</h2>
     <h3></h3>
     <div class="card">
-        <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
+        <img src="https://dagligvarehandlen.dk/files/styles/6_10_570x950/public/Sm%C3%B8r.jpg?itok=3pmffGJv" style="width:100%">
         <h1>Smør</h1>
         <p class="price">6.95,-</p>
         <p>Some text about the products.lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div>  
     <div class="card">
-        <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
+        <img src="https://mk0madensverdencsg1n.kinstacdn.com/wp-content/uploads/2015/06/billede-med-soedmaelksfranksbroed-franskbroed-i-form.jpg" style="width:100%">
         <h1>Franskbrød</h1>
         <p class="price">19.95,-</p>
         <p>Some text about the products. lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div> 
     <div class="card">
-        <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
+        <img src="https://politiken.dk/incoming/img7684567.btzzlg/ORIGINALS/original_615/Fastelavnsboller-hindb%C3%A6rsnitter" style="width:100%">
         <h1>Hindbærsnitte</h1>
         <p class="price">9.95,-</p>
         <p>Some text about the products. lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
         <p><button>Add to Cart</button></p>
     </div>
     <div class="card">
-        <img src="https://static.thenounproject.com/png/187803-200.png" style="width:100%">
+        <img src="https://www.louisesmadblog.dk/wp-content/uploads/2015/09/20198183221_eb41aa8508_b-1.jpg" style="width:100%">
         <h1>Rugbrød</h1>
         <p class="price">14.95,-</p>
         <p>Some text about the products. lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
